@@ -225,10 +225,12 @@
     color: #092a5e;
     font-weight: 700;
     line-height: 1.1;
-    text-align: center;
     margin-bottom: 40px;
     padding-top: 45px;
     scroll-margin-top: 40px;
+}
+.section-title.center-mode {
+    text-align: center;
 }
 
 .section-subtitle {
@@ -241,10 +243,6 @@
 
 strong {
     font-weight: 700
-}
-
-.section-content-image--wrapper {
-    margin-bottom: 44px
 }
 
 .section-content-image {
@@ -303,8 +301,8 @@ strong {
 }
 
 .section-blue-content--inner {
-    padding-left: 64px;
-    max-width: 965px;
+    padding-left: 90px;
+    max-width: 990px;
     margin: 0 auto;
     position: relative
 }
@@ -328,7 +326,7 @@ strong {
 .hero {
     height: 310px;
     background-color: #e2f3fe;
-    background-image: url("../img/tui-teaser-workation.avif");
+    background-image: url("../img/tui-workation-2025-landschaft@2x.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top,right
@@ -336,38 +334,38 @@ strong {
 
 .container--hero {
     height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between
 }
 
-.logo-hero {
-    display: none;
-    width: 92px
+.logo-link {
+    width: 118px
 }
 
 .hero-title {
     width: 100%;
     font-size: 33px;
-    padding-bottom: 61px;
+    padding-bottom: 59px;
     letter-spacing: 1px;
     line-height: 1.1;
+    font-weight: 700;
     color: #fff;
+    margin-top: auto;
 }
+
+.hero-title span {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
 
 .nav {
     display: none;
     z-index: 5;
     position: sticky;
     top: -1px;
-    height: 64px;
     background-color: #092a5e;
     color: #fff;
     -webkit-transition: all 250ms ease-in-out;
@@ -377,6 +375,12 @@ strong {
 .nav--sticky {
     background-color: #e2f3fe;
     color: #092a5e
+}
+.nav-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:32px
 }
 
 .nav-list {
@@ -388,13 +392,19 @@ strong {
     align-items: center;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between
+    justify-content: space-between;
+    max-width: 867px;
+    width: 100%;
 }
 
 .nav-list--item {
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
+    margin-right: 32px;
     display: inline-block;
+}
+.nav-list--item:last-of-type {
+    margin-right: 0;
 }
 
 .nav-list--item:hover,.nav-list--item:focus {
@@ -404,15 +414,18 @@ strong {
 .nav-list--link {
     display: flex;
     align-items: center;
-    font-size: 18px;
-    padding: 13px 0;
-    letter-spacing: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 28px 0;
+    letter-spacing: normal;
 }
+
 
 .embed {
     text-align: center;
     margin-bottom: 60px;
-    margin-top: 40px
 }
 .embed+.section-title {
     padding-top: 0;
@@ -509,6 +522,15 @@ strong {
 }
 .mb-60 {
     margin-bottom: 60px!important;
+}
+.mt-20 {
+    margin-top: 20px!important;
+}
+.mt-30 {
+    margin-top: 30px!important;
+}
+.mt-40 {
+    margin-top: 30px!important;
 }
 
 .prg-button {
