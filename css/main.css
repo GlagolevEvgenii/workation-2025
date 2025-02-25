@@ -232,7 +232,7 @@
     padding-top: 45px;
     scroll-margin-top: 60px;
 }
-.section-title.center-mode {
+.section-title.center-mode, .section-subtitle.center-mode {
     text-align: center;
 }
 
